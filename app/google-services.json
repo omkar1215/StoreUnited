@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72142115518",
+    "firebase_url": "https://storeunited-fac89-default-rtdb.firebaseio.com",
+    "project_id": "storeunited-fac89",
+    "storage_bucket": "storeunited-fac89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72142115518:android:5a01f7f426b90c390904ef",
+        "android_client_info": {
+          "package_name": "com.example.storeunited"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72142115518-hui5cfjoig8dgrj9vjvlt81ckcroavpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.storeunited",
+            "certificate_hash": "65fd196c53cfc0949a4342897fe3b741c7136329"
+          }
+        },
+        {
+          "client_id": "72142115518-8g3rijs34pefklksboupqu29buii5r1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt51TtoZBXytcWMM1Lvh5I06Dk5LW1Gx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72142115518-8g3rijs34pefklksboupqu29buii5r1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

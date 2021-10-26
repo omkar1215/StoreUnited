@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232"
+    tools:context=".OtpActivity">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buynowbg"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="verify"
+        android:textColor="#FF3232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40">
+
+        <EditText
+            android:id="@+id/inputcode1"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/inputcode2"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/inputcode3"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/inputcode4"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/inputcode5"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/inputcode6"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#FD5959"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            tools:ignore="LabelFor" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Enter OTP"
+        android:textColor="#FD5959"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40" />
+
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circleprogressbar"
+        android:padding="15dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Resend OTP"
+            android:textColor="#FF5858" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
